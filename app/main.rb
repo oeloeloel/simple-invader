@@ -117,14 +117,14 @@ def check_enemy_hit args
     args.state.player_bullet_w,
     args.state.player_bullet_h
   ]
-  
+
   # draw the hitbox rects
   args.outputs.debug << {
     x: enemy_hitbox.x,
     y: enemy_hitbox.y,
     w: enemy_hitbox.w,
     h: enemy_hitbox.h,
-    r: 255, 
+    r: 255,
     g: 0,
     b: 0
   }.border
@@ -133,9 +133,9 @@ def check_enemy_hit args
     x: player_bullet_hitbox.x,
     y: player_bullet_hitbox.y,
     w: player_bullet_hitbox.w,
-    h: player_bullet_hitbox.h, 
-    r: 255, 
-    g: 0, 
+    h: player_bullet_hitbox.h,
+    r: 255,
+    g: 0,
     b: 0
   }.border
 
@@ -167,9 +167,9 @@ def check_player_hit args
     x: player_hitbox.x,
     y: player_hitbox.y,
     w: player_hitbox.w,
-    h: player_hitbox.h, 
-    r: 255, 
-    g: 0, 
+    h: player_hitbox.h,
+    r: 255,
+    g: 0,
     b: 0
   }.border
 
@@ -177,9 +177,9 @@ def check_player_hit args
     x: enemy_bullet_hitbox.x,
     y: enemy_bullet_hitbox.y,
     w: enemy_bullet_hitbox.w,
-    h: enemy_bullet_hitbox.h, 
-    r: 255, 
-    g: 0, 
+    h: enemy_bullet_hitbox.h,
+    r: 255,
+    g: 0,
     b: 0
   }.border
 
@@ -207,7 +207,6 @@ end
 
 # update enemy position
 def move_enemy args
-
   # define our right and left boundaries
   right = 1280 - args.state.enemy_w - args.state.margin
   left = args.state.margin
@@ -229,7 +228,7 @@ def move_player_bullet args
     # go see if the bullet hit the enemy
     check_enemy_hit args
     # update the bullet y position
-    args.state.player_bullet_y += 10    
+    args.state.player_bullet_y += 10
     # has the bullet gone off the top of the screen?
     if args.state.player_bullet_y > 720
       # don't bother updating it
@@ -275,7 +274,7 @@ def render args
 end
 
 # draw the player bullet
-def render_player_bullet args 
+def render_player_bullet args
   args.outputs.sprites << {
     x: args.state.player_bullet_x,
     y: args.state.player_bullet_y,
@@ -286,7 +285,7 @@ def render_player_bullet args
 end
 
 # draw the enemy bullet
-def render_enemy_bullet args 
+def render_enemy_bullet args
   args.outputs.sprites << {
     x: args.state.enemy_bullet_x,
     y: args.state.enemy_bullet_y,
@@ -301,7 +300,7 @@ def render_player args
   args.outputs.sprites << {
     x: args.state.player_x,
     y: args.state.player_y,
-    w: args.state.player_w, 
+    w: args.state.player_w,
     h: args.state.player_h,
     path: 'sprites/circle/blue.png',
     angle: 90
@@ -319,22 +318,30 @@ def render_enemy args
   }
 end
 
+# draw the Game Over screen
 def render_game_over args
-  return if args.state.game_state == "playing"
+  # get out if the game is still playing
+  if args.state.game_state == "playing"
+    return
+  end
+
+  # draw a black background
   args.outputs.solids << {
-    x: 0, 
-    y: 0, 
+    x: 0,
+    y: 0,
     w: 1280,
     h: 720
   }
+
+  # show a big "You win!"" or "You lose!"
   args.outputs.labels << {
-    x: 1280/2, 
-    y: 500, 
-    text: "You #{args.state.game_state}!", 
-    size_enum: 120, 
-    alignment_enum: 1, 
-    r: 255, 
-    g: 255, 
+    x: 1280 / 2,
+    y: 500,
+    text: "You #{args.state.game_state}!",
+    size_enum: 120,
+    alignment_enum: 1,
+    r: 255,
+    g: 255,
     b: 255
   }
 end
@@ -342,8 +349,8 @@ end
 # just a helpful message
 def debug args, msg
   args.outputs.debug << {
-    x: 10, 
-    y: 700, 
+    x: 10,
+    y: 700,
     text: msg
   }.label
 end
