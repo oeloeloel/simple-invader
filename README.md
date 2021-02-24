@@ -1,2 +1,2 @@
-# dragonruby-template
-Template for DragonRuby project
+# Simple Invader
+A simple space invader type game for DragonRuby.
