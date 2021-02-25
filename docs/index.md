@@ -5,22 +5,18 @@ The purpose of this tutorial is to help people who are new to programming make a
 You do not need to have any experience making games or writing code. The level of difficulty should be low and if there is anything you find confusing or difficult to grasp, please visit the [DragonRuby discord](http://discord.dragonruby.com) and say what is giving you trouble.
 
 ### Setting up
-To get started, create a folder to keep your games. I'm going to call mine "My DragonRuby Games" but you can call it whatever makes sense to you. 
+To get started, create a folder to keep your games. `DragonRuby` is a good choice. 
 
 Download DragonRuby and put the zip file in your DragonRuby Games folder. 
 
-Whenever you want to start working on a new game, just unzip the file. This will give you a fresh copy of DragonRuby to work with. Go ahead and rename the game folder "simple_invader".
+Whenever you want to start working on a new game, just extract the zip file. This will give you a fresh copy of DragonRuby to work with. Go ahead and rename the game folder `simple_invader`.
 
-You should now have something that looks like this:
-
+You should have something like this now:
 ![Image](https://github.com/oeloeloel/simple-invader/blob/main/docs/images/install.png)
-
-or on imgur:
-![Image](https://i.imgur.com/tGtYRUl.png)
 
 I'm taking screenshots on the Mac but you should see something similar on Windows or Linux.
 
-Open your new `dragonruby` folder and look for the
+Open your new `simple_invader` folder and look for the
 
 
 
