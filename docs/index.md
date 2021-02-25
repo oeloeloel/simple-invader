@@ -13,7 +13,6 @@ Whenever you want to start working on a new game, just unzip the file. This will
 
 You should now have something that looks like this:
 
-![Image](https://i.imgur.com/tGtYRUl.png)
 ![Image](https://github.com/oeloeloel/simple-invader/blob/main/docs/images/install.png)
 
 
