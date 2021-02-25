@@ -13,7 +13,7 @@ Whenever you want to start working on a new game, just unzip the file. This will
 
 You should now have something that looks like this:
 
-![Image](https://imgur.com/tGtYRUl)
+![Image](https://i.imgur.com/tGtYRUl.png)
 
 I'm taking screenshots on the Mac but you should see something similar on Windows or Linux.
 
