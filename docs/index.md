@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Simple Invader DragonRuby Tutorial for Beginners
 
 You can use the [editor on GitHub](https://github.com/oeloeloel/simple-invader/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
