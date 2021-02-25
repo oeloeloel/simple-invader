@@ -1,5 +1,9 @@
 ## Simple Invader DragonRuby Tutorial for Beginners
 
+The purpose of this tutorial is to help people who are new to programming make a game in DragonRuby.
+
+You do not need to have any experience making games or writing code. The level of difficulty should be low and if there is anything you find confusing or difficult to grasp, please visit the [DragonRuby discord](http://discord.dragonruby.com) and say what is giving you trouble.
+
 You can use the [editor on GitHub](https://github.com/oeloeloel/simple-invader/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
