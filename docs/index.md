@@ -28,11 +28,11 @@ We're going to call this the DragonRuby Window. Everything that happens in your 
 
 Now go back to your DragonRuby folder and look in the `mygame/apps` folder for the `main.rb` file. Open this file with any text editor. On Windows, you can use Notepad.exe. On the Mac, you can use TextEdit. If you are on Linux... you probably already know what to use.
 
-These editors are fine for writing code and very simple to use. If you want something better, try Microsoft Visual Studio Code, available for both Mac and Windows.
+These editors are fine for writing code and very simple to use. If you want to complicate your life, you can use a dedicated code editor but, for now, try to keep it simple.
 
 When you run DragonRuby, it looks in the `main.rb` file to see what to do. This is where you are going to write the code for your game.
 
-Right now, there are already a few lines of code in the file. This code is making the "Hello World!" message appear in the DragonRuby Window.
+Right now, there are already a few lines of code in the file. This code is making the "Hello World!" message and the DragonRuby logo appear in the DragonRuby Window.
 
 ```ruby
 def tick args
@@ -43,9 +43,9 @@ def tick args
 end
 ```
 
-If you are feeling adventurous, you can play around with this code, save it and see what happens. Try changing some of the numbers. Don't worry about breaking anything. 
+If you are feeling adventurous, you can play around with this code, save it and see what happens. Try changing some of the numbers. Don't worry if you break something. 
 
-When you are done, you can delete all the code in this file and we will start writing our own.
+When you are done, you can delete all the code in this file, then save it and we can start writing our game.
 
 ## First code
 
