@@ -22,6 +22,33 @@ Open your new `simple_invader` folder and look for `dragonruby` (on Mac/Linux) o
 
 Double-click this file to run DragonRuby. You should see a new window that looks like this:
 
+[show hello world]
+
+We're going to call this the DragonRuby Window. Everything that happens in your game will be in this window.
+
+Now go back to your DragonRuby folder and look in the `mygame/apps` folder for the `main.rb` file. Open this file with any text editor. On Windows, you can use Notepad.exe. On the Mac, you can use TextEdit. If you are on Linux... you probably already know what to use.
+
+These editors are fine for writing code and very simple to use. If you want something better, try Microsoft Visual Studio Code, available for both Mac and Windows.
+
+When you run DragonRuby, it looks in the `main.rb` file to see what to do. This is where you are going to write the code for your game.
+
+Right now, there are already a few lines of code in the file. This code is making the "Hello World!" message appear in the DragonRuby Window.
+
+```ruby
+def tick args
+  args.outputs.labels  << [640, 500, 'Hello World!', 5, 1]
+  args.outputs.labels  << [640, 460, 'Go to docs/docs.html and read it!', 5, 1]
+  args.outputs.labels  << [640, 420, 'Join the Discord! http://discord.dragonruby.org', 5, 1]
+  args.outputs.sprites << [576, 280, 128, 101, 'dragonruby.png']
+end
+```
+
+If you are feeling adventurous, you can play around with this code and see what happens. Try changing some of the numbers. Don't worry about breaking anything. 
+
+When you are done, you can delete all the code in this file so we can start writing our own.
+
+
+
 
 
 
