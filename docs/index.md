@@ -12,7 +12,7 @@ Download DragonRuby and put the zip file in your `DragonRuby` folder.
 Extract the zip file into your `DragonRuby` folder. This should create a new folder which you can rename to `simple_invader`. Do this any time you want to start working on a new game.
 
 Now, you should have something like this:
-![Image](https://github.com/oeloeloel/simple-invader/blob/main/docs/images/install.png) 
+![Image](images/install.png) 
 
 I'm taking screenshots on the Mac but you should see something similar on Windows or Linux.
 
