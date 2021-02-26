@@ -20,6 +20,8 @@ Open your new `simple_invader` folder and look for `dragonruby` (on Mac/Linux) o
 
 ![Image](https://github.com/oeloeloel/simple-invader/blob/main/docs/images/executable.png) 
 
+Double-click this file to run DragonRuby. You should see a new window that looks like this:
+
 
 
 
