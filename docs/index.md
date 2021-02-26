@@ -1,10 +1,10 @@
-## Simple Invader DragonRuby Tutorial for Beginners
+# Simple Invader DragonRuby Tutorial for Beginners
 
 The purpose of this tutorial is to help people who are new to programming make a game in DragonRuby.
 
-You do not need to have any experience making games or writing code. The level of difficulty should be low and if there is anything you find confusing or difficult to grasp, please visit the [DragonRuby discord](http://discord.dragonruby.com) and say what is giving you trouble.
+You do not need to have any experience making games or writing code. The level of difficulty should be low and if there is anything you find confusing or difficult to grasp, please visit the [DragonRuby Discord](http://discord.dragonruby.com) and say what is giving you trouble.
 
-### Setting up
+## Setting up
 To get started, go to your documents folder and create a new folder called `DragonRuby` to keep your games in.
 
 Download DragonRuby and put the zip file in your `DragonRuby` folder. 
@@ -43,9 +43,85 @@ def tick args
 end
 ```
 
-If you are feeling adventurous, you can play around with this code and see what happens. Try changing some of the numbers. Don't worry about breaking anything. 
+If you are feeling adventurous, you can play around with this code, save it and see what happens. Try changing some of the numbers. Don't worry about breaking anything. 
 
-When you are done, you can delete all the code in this file so we can start writing our own.
+When you are done, you can delete all the code in this file and we will start writing our own.
+
+## First code
+
+### Label
+- tick args: what is a tick
+- label: what is a label
+- changing text
+- changing location
+- tick count: show the ticks counting
+
+- variables 1
+- integers (set x, y)
+- strings (set text)
+- simple math (+, -, *, /)
+- changing label values
+
+- args 1
+- what is args, a handy bag. We put things in, we take things out. We carry the bag wherever we want to go.
+
+- state
+- a place for variables to live
+- method scope is short
+- args.state keeps your variables so they don't go away
+- setting default values (complex)
+- now we can add to a number every tick
+- show in label
+
+# Enemy Sprite
+
+- sprites
+- make a sprite on the screen
+- make the sprite move
+
+- if statement
+- if, else
+- boundaries
+- change sprite direction
+
+- methods
+- what is a method
+- defaults, calc, render
+- args again, don't forget to carry your bag
+- refactor
+
+# player sprites
+
+- inputs
+- put another sprite on screen
+- make it move left and right
+
+# shoot
+
+- make bullets
+- set boundaries
+
+# hit
+
+- collisions
+- check for hit on enemy
+- check for hit on player
+
+# state: play, win, lose
+- game over
+
+# what now
+- more bullets
+- more enemies
+- learn more Ruby
+- chat at discord
+- 
+
+
+
+
+
+
 
 
 
