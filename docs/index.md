@@ -18,7 +18,7 @@ I'm taking screenshots on the Mac but you should see something similar on Window
 
 Open your new `simple_invader` folder and look for `dragonruby` (on Mac/Linux) or `dragonruby.exe` on Windows.
 
-![Image](https://github.com/oeloeloel/simple-invader/blob/main/docs/images/install.png) 
+![Image](https://github.com/oeloeloel/simple-invader/blob/main/docs/images/executable.png) 
 
 
 
