@@ -24,15 +24,17 @@ Double-click this file to run DragonRuby. You should see a new window that looks
 
 [show hello world]
 
-We're going to call this the DragonRuby Window. Everything that happens in your game will be in this window.
+We're going to call this the DragonRuby window. Everything that happens in your game will be in this window.
 
-Now go back to your DragonRuby folder and look in the `mygame/apps` folder for the `main.rb` file. Open this file with any text editor. On Windows, you can use Notepad.exe. On the Mac, you can use TextEdit. If you are on Linux... you probably already know what to use.
+Now go back to your DragonRuby folder and look in the `mygame/apps` folder for the `main.rb` file. 
 
-These editors are fine for writing code and very simple to use. If you want to complicate your life, you can use a dedicated code editor but, for now, try to keep it simple.
+[screenshot]
+
+Open this file with any text editor like Notepad.exe (Windows) or TextEdit (Mac).
 
 When you run DragonRuby, it looks in the `main.rb` file to see what to do. This is where you are going to write the code for your game.
 
-Right now, there are already a few lines of code in the file. This code is making the "Hello World!" message and the DragonRuby logo appear in the DragonRuby Window.
+Right now, you should already see a few lines of code in the file. This code is making the "Hello World!" messages and the DragonRuby logo appear in the DragonRuby window.
 
 ```ruby
 def tick args
@@ -45,9 +47,19 @@ end
 
 If you are feeling adventurous, you can play around with this code, save it and see what happens. Try changing some of the numbers. Don't worry if you break something. 
 
-When you are done, you can delete all the code in this file, then save it and we can start writing our game.
+When you are done, you can delete all the code in this file, then save the file and we can start writing our game.
 
 ## First code
+
+### The `tick` method
+
+Type the following code:
+
+```ruby
+def tick args
+
+end
+```
 
 ### Label
 - tick args: what is a tick
