@@ -57,7 +57,7 @@ Type the following code:
 
 ```ruby
 def tick args
-
+  args.outputs.labels << [100, 100, "My first label"]
 end
 ```
 
