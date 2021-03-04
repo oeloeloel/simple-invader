@@ -22,13 +22,13 @@ Open your new `simple_invader` folder and look for `dragonruby` (on Mac/Linux) o
 
 Double-click this file to run DragonRuby. You should see a new window that looks like this:
 
-[show hello world]
+![Image](images/hello-world.png) 
 
 We're going to call this the DragonRuby window. Everything that happens in your game will be in this window.
 
 Now go back to your DragonRuby folder and look in the `mygame/apps` folder for the `main.rb` file. 
 
-![Image](images/hello-world.png) 
+![Image](images/main.png)
 
 Open this file with any text editor like Notepad.exe (Windows) or TextEdit (Mac).
 
