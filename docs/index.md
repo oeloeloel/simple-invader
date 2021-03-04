@@ -61,7 +61,7 @@ end
 
 Save the file and look at your DragonRuby window. Whenever you change the code and save the file, DragonRuby sees the new code and automatically displays the changes.
 
-You should see a blank window with the text "This is a DragnRuby Label" displayed in the top left corner. If you don't see it, check that your code is accurately typed and save the file again.
+You should see a blank window with the text "This is a DragnRuby Label" displayed in the bottom left corner. If you don't see it, check that your code is accurately typed and save the file again.
 
 ![Image](images/first-label.png) 
 
@@ -69,9 +69,7 @@ You should see a blank window with the text "This is a DragnRuby Label" displaye
 
 This block of code starting with `def tick args` and ending with `end` is called the _`tick` method_.
 
-When DragonRuby starts, it looks at your code to find the `tick` method. It looks at each of the following lines of code until it reaches `end`. Then, it does it again and again and again, 60 times per second.
-
-The code you write in the `tick` method will contain _instructions_, which DragonRuby will try to follow.
+When DragonRuby starts, it looks at your code to find the `tick` method. Then, it tries to make sense of each of the following lines of code until it reaches `end`. When it gets to the end, it does the whole thing again and again and again, 60 times per second.
 
 We will spend more time looking at the `tick` method in a moment.
 
@@ -101,6 +99,9 @@ Let's get back to those numbers. I said that the first number tells DragonRuby t
 
 Great, but what is a pixel? Briefly, your computer's screen is made up of pixels (dots of light), packed close together in a grid. There are a fixed number of columns and rows of pixels on your screen. So, when I say '100 _pixels_ from the _left_', I mean 50 _dots of light_ from the _left_.
 
+
+
+<!--
 Fine, but 100 pixels from the _left_ of _what_? To answer that question, we're going to add another line of code.
 
 ### Doing a solid
@@ -114,7 +115,8 @@ def tick args
 end
 ```
 
-`args.outputs.solids <<` tells DragonRuby to display a `solid`. This is a solid, rectangular shape.
+`args.outputs.solids <<` tells DragonRuby to display a `solid`. This is a rectangular shape filled with a solid color.
+
 `[0, 0, 1280, 720]` is the information DragonRuby needs in order to display the solid. In this case, it is four numbers that tell DragonRuby where to display the `solid` and _how big_ to make it.
 
 Save the code and look at your DragonRuby window. Very probably, everything inside the window turned black. Don't panic, this is what we want to see.
@@ -123,7 +125,7 @@ By default, solids are black. We will change the color in a moment by providing 
 
 Where did the label go? It's still there but you can't see it because it's black text sitting on a black background.
 
-Now, lets look at those numbers. The first number is `0`. This says start displaying my black solid 0 pixels from _the left_, which is to say, put the left edge of the solid right at the edge of the canvas.
+Let's look at those numbers. The first number is `0`. This says start displaying my black solid 0 pixels from _the left_, which is to say, put the left edge of the solid on the _left_ edge of the canvas.
 
 The second number is also `0` and that says display the solid right on the bottom.
 
@@ -229,3 +231,4 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 
+-->
