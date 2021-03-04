@@ -37,8 +37,8 @@ def defaults args
   # enemy defaults
   args.state.enemy_x ||= 40
   args.state.enemy_y ||= 600
-  args.state.enemy_w ||= 80
-  args.state.enemy_h ||= 80
+  args.state.enemy_w ||= 370
+  args.state.enemy_h ||= 370
   args.state.enemy_speed ||= 2
   args.state.enemy_dir ||= 1
 
